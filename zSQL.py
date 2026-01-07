@@ -10,7 +10,7 @@ os.makedirs(folder_name, exist_ok=True)
 print(f"Folder '{folder_name}' created successfully.\n")
 
 # Files to create
-files = ["psql.py", "pandas.py.java", "README.md"]
+files = ["psql.sql", "pandas.py", "README.md"]
 
 # Function to take multiline input
 def get_multiline_input(file_name):
